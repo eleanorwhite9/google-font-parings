@@ -2,66 +2,61 @@ html {
   scroll-behavior: smooth;
 }
 
-.hero-content {
- display: none; 
-}
-
-body {
-  font-family: 'Oswald', sans-serif;
+h1{
   margin: 0;
   padding: 0;
+  color: black}
+
+body {
+  margin: 0;
+  padding: 0;
+  color:white;
+  
 }
 
 header {
   height: 100vh;
+  font-family: 'Prompt', sans-serif; bold
 }
 
 .hero-content {
   width: 50%;
   text-align: center;
-  color: #000;
+  color: #000
+    
+    
 }
 
 p {
   font-weight: 200;
   font-size: 18px;
   line-height: 30px;
+  color:white
 }
 
 a {
-  margin-top: 0;
+  margin-top: 30px;
   margin-right:10px;
-  margin-bottom: 10px;
   background-color: rgb(0, 0, 0, 0.6);
   padding: 10px;
   text-decoration: none;
-  color: #fff;
+  color: #FFC0CB;
   display: inline-block;
 }
 
-nav {
-  width: 100%;
-  text-align: center;
-  padding: 20px;
-  position: fixed;
-  top: 0;
-  background-color:  rgb(0, 0, 0, 0.3);
-  z-index: 10;
-}
-
 span .font-pair1a{
-  font-family: 'Roboto', sans-serif;
+font-family: 'Prompt', sans-serif;
 }
 
 span .font-pair1b{
-  font-family: 'Cabin', sans-serif;
+font-family: 'Prompt', sans-serif;
 }
 
 
 /* add your css below this line */
 
 .hero-background {
-  background: url("https://images.pexels.com/photos/234133/pexels-photo-234133.jpeg") no-repeat fixed center;
+  background: url("https://images.pexels.com/photos/6045344/pexels-photo-6045344.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed center;
   background-size: cover;
 }
 
@@ -72,15 +67,16 @@ span .font-pair1b{
 }
 
 .first-section-background {
-  background: url("https://images.pexels.com/photos/6249454/pexels-photo-6249454.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat fixed bottom;
+  background: url("https://images.pexels.com/photos/6045366/pexels-photo-6045366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat fixed bottom;
+ 
 }
 
 .second-section-background {
-  background: url("https://reliablepsd.com/wp-content/themes/reliable/images/blog/bg07.jpg") no-repeat fixed bottom;
+  background: url(https://images.pexels.com/photos/1771218/pexels-photo-1771218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat fixed bottom;
 }
 
 .third-section-background {
-  background: url("https://images.pexels.com/photos/1803859/pexels-photo-1803859.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat fixed bottom;
+  background: url(https://images.pexels.com/photos/2294878/pexels-photo-2294878.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260) no-repeat fixed bottom;
 }
 
 .with-background {
@@ -111,21 +107,8 @@ h2 {
 h3 {
   font-size: 55px;
   font-weight: 200;
-  line-height: 60px;
+  line-height: 40px;
   margin: 0;
-}
-
-.number {
-  width: 50px;
-  height: 50px;
-  background-color: #000;
-  position: absolute;
-  color: #fff;
-  text-align: center;
-  top: -25px;
-  right: -25px;
-  font-weight: 30px;
-  line-height: 50px;
 }
 
 article {
@@ -134,26 +117,19 @@ article {
   padding: 50px;
 }
 
-.first-article-container, .second-article-container, .third-article-container  {
-  position: relative;
-}
-
 .first-article-container {
-  background-color: #e2b400;
+  background-color: #FC4C4E;
+  opacity: 80%
 }
 
 .second-article-container {
-  background-color: #a66746;
+  background-color: black;
+   opacity: 80%
 }
 
 .third-article-container {
-  background-color: #a69991;
-}
-
-footer {
-  text-align: center;
-  padding: 20px 0;
-  background-color: rgb(0, 0, 0, 0.3);
+  background-color: #fc94af;
+   opacity: 80%
 }
 
  
